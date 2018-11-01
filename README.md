@@ -30,7 +30,7 @@ CreationTimestamp:      Thu, 01 Nov 2018 14:58:43 +0100
 - list pods
 
 ```
-$ kubectl get pods -l app=nginx
+$ kubectl get pods -l <selector>
 NAME                                READY     STATUS    RESTARTS   AGE
 nginx-deployment-75675f5897-4xprw   1/1       Running   0          3m
 nginx-deployment-75675f5897-6q4kk   1/1       Running   0          3m
@@ -40,4 +40,28 @@ nginx-deployment-75675f5897-6q4kk   1/1       Running   0          3m
 
 ```
 $ kubectl describe pod nginx-deployment-75675f5897-4xprw
+```
+
+
+- describe PersistentVolumeClaim
+
+```
+$ kubectl describe pvc <pvc name>
+```
+
+- running temporary interactive container in pod
+
+```
+$ kubectl run -it --rm --image=mysql:5.6 --restart=Never <name> -- <command>
+
+e.g.
+
+kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h mysql -ppassword
+```
+
+
+- delete deployed objects
+
+```
+kubectl delete deployment
 ```
