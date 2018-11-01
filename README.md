@@ -4,7 +4,23 @@
 
 - [Foundational - Kubernetes](https://kubernetes.io/docs/user-journeys/users/application-developer/foundational/#section-2)
 - [Viewing Pods and Nodes - Kubernetes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
+- [Kubernetes Components - Kubernetes](https://kubernetes.io/docs/concepts/overview/components/)
 
+## useful tool
+
+- [Web UI (Dashboard) - Kubernetes](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+
+```
+$ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+
+$ kubectl proxy
+
+$ open http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login
+
+
+## cleanup
+$ kubectl delete -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+```
 
 ## cheetsheet
 
