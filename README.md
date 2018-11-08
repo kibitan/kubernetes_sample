@@ -13,6 +13,10 @@
 
 - [Example: Deploying PHP Guestbook application with Redis - Kubernetes](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
 
+## presentation
+- [Introduction to kubernetes](https://www.slideshare.net/RaffaeleDiFazio/introduction-to-kubernetes-103576834)
+- [AWS re:Invent 2017: Mastering Kubernetes on AWS (CON308) - YouTube](https://www.youtube.com/watch?v=w34txLmpEuM&t=14s)
+
 ## useful tool
 
 - [Web UI (Dashboard) - Kubernetes](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
