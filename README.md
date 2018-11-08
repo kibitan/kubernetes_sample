@@ -5,6 +5,13 @@
 - [Foundational - Kubernetes](https://kubernetes.io/docs/user-journeys/users/application-developer/foundational/#section-2)
 - [Viewing Pods and Nodes - Kubernetes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)
 - [Kubernetes Components - Kubernetes](https://kubernetes.io/docs/concepts/overview/components/)
+- Configset: [Configure a Pod to Use a ConfigMap - Kubernetes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
+- Secret: [Secrets - Kubernetes](https://kubernetes.io/docs/concepts/configuration/secret/)
+- Namespace: [Namespaces Walkthrough - Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)
+
+## tutorials
+
+- [Example: Deploying PHP Guestbook application with Redis - Kubernetes](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
 
 ## useful tool
 
